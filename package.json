@@ -1,0 +1,77 @@
+{
+  "name": "react-starter",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack && webpack-dev-server",
+    "test": "npm jest"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "express": "^4.16.2",
+    "history": "^4.7.2",
+    "material-ui": "^1.0.0-beta.29",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dimensions": "^1.3.1",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "react-scripts": "1.1.0",
+    "recompose": "^0.26.0",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "styled-components": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jest": "^21.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "style-loader": "^0.20.1",
+    "webpack-dev-server": "^2.11.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,css}": [
+      "prettier --single-quote --write",
+      "git add"
+    ]
+  },
+  "description": "A simple starter app with all the things added for ease of initing a new basic project with testing, hmr, react, redux, and a lot more fun stuff already included",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattMakes/ReactStarter.git"
+  },
+  "keywords": [
+    "react",
+    "starter",
+    "react-init",
+    "init",
+    "jest",
+    "hmr",
+    "axios",
+    "styled-components",
+    "airbnb-lint"
+  ],
+  "author": "Matthew Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattMakes/ReactStarter/issues"
+  },
+  "homepage": "https://github.com/MattMakes/ReactStarter#readme"
+}
